@@ -1,0 +1,15 @@
+# Evitar subir entornos virtuales
+env/
+venv/
+ENV/
+.VENV/
+
+# Archivos del sistema
+__pycache__/
+*.pyc
+
+# Evitar subir datos sensibles
+*.env
+
+# Otros
+.DS_Store
